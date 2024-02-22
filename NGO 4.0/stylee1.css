@@ -1,0 +1,139 @@
+import@ url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,100;1,400&display=swap');
+body{
+	line-height= 1.5;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.footerr{
+	background-color: #24262b;
+	padding: 30px 0;
+}
+.containerr{
+	max-width: 1900px;
+    background-color: #24262b; 
+	
+	margin: auto;
+	
+}
+.rowr{
+	display: flex;
+	flex-wrap: 	wrap;
+}
+ul{
+	list-style: none;
+}
+	
+.footer-colsr{
+	width: 20%;
+	padding: 0 15px;
+}
+.footer-colsr h4{
+	font-size: 25px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;	
+}
+.footer-colsr h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color:#5bc1ac;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-colsr ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-colsr ul li a{
+	font-size: 16px;
+	text-transformation: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #FEFEF2;
+	display: block;
+    transition: all 0.3s ease;
+}
+.footer-colsr ul li a:hover{
+	color: #ffffff;
+	padding-left: 10px;
+}
+.socialIconsr{
+    display: flex;
+    justify-content: center;
+    
+}
+.socialIconsr a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%; 
+}
+
+.socialIconsr a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/* HOVER EFFECT socialIcons  */
+
+.socialIconsr a:hover{
+    background-color: #5bc1ac;
+    transition: 0.5s;
+}
+.socialIconsr a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footer-colsr social-links a{
+	display: inline-block;
+	height: 100px;
+	width: 50px;
+	background-color: rgba(182,244,146);
+	margin-right: 0 10px  10px 0;
+	text-align: center;
+	line-height: 100px;
+    border-radius: 100%;	
+	colors: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-colsr.social-links a:hover{
+	color:#476333;
+	background-color: #ffffff;
+}
+ .footerContainerr{
+	width: 20%;
+	padding: 0 15px;	
+} 
+ .footerContainerr h4 {
+	font-size: 25px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+    font-weight: 500;
+    position: relative;
+	
+} 
+.footerBottom h6{
+	text-align:center ;
+	color:#ffffff;
+	position:fixed;
+}
+/*responsive*/
+@media(max-width: 7676px){
+	.footer-colsr{
+		width: 25%;
+		margin-bottom: 30px;
+	}
+}
+
